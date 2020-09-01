@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/../IIB/.idea/IIB.iml" filepath="$PROJECT_DIR$/../IIB/.idea/IIB.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/tickets-app-microservices.iml" filepath="$PROJECT_DIR$/.idea/tickets-app-microservices.iml" />
     </modules>
   </component>
