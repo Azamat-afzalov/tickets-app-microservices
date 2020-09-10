@@ -9,7 +9,6 @@ import {errorHandler} from "./middlewares/error-handler";
 import {NotFoundError} from "./errors/not-found-error";
 import cookieSession from "cookie-session";
 
-
 const app = express();
 app.set('trust proxy', true);
 app.use(json());
