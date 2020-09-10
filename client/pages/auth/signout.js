@@ -2,7 +2,6 @@ import React,{useEffect} from 'react';
 import useRequest from "../../hooks/useRequest";
 import {useRouter} from "next/router";
 
-
 export default function Signout() {
     const router = useRouter();
     const {doRequest} = useRequest({

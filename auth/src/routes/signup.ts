@@ -1,9 +1,7 @@
 import express, {Request, Response,NextFunction} from 'express'
 import {body} from 'express-validator';
 import {User} from '../models/user';
-import {DatabaseConnectionError} from "../errors/database-connection-error";
-import {validateRequest} from '../middlewares/validate-request';
-import {BadRequestError} from "../errors/bad-request-error";
+import {DatabaseConnectionError,validateRequest,BadRequestError} from "@afzalov_tickets/common_package";
 import jwt from 'jsonwebtoken';
 const router = express.Router()
 

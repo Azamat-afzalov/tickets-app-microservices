@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react';
 import Router from 'next/router';
 import useRequest from '../../hooks/useRequest';
 
-export default () => {
+export default function Signup(){
     const [email, setEmail] = useState('');
     const [password, setPassword] = useState('');
     const { doRequest, errors } = useRequest({
@@ -17,7 +17,6 @@ export default () => {
 
     const onSubmit = async event => {
         event.preventDefault();
-
         await doRequest();
     };
 
